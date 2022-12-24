@@ -7,7 +7,7 @@
     <script src="https://cdn.tailwindcss.com"></script>
     <title>VS Code 2.0</title>
 </head>
-<body class="font-sans box-border antialiased m-0 p-0 overflow-x-hidden bg-[#242B2E]">
+<body class="font-sans box-border antialiased m-0 p-0 overflow-x-hidden">
     <div>
         <!-- Navbar -->
     <nav class="flex bg-[#2c2c32] h-14 items-center justify-between">
@@ -257,31 +257,44 @@
             <!-- Installer Section  -->
             <section class="h-[80vh]">
 
-             <div class="">
-                <div class="flex justify-center">
-                    <img class="h-40 w-40" src="./assets/windows-logo.png" alt="windows-logo">
+             <div class="flex flex-col items-center gap-1 mt-14">
+                <div class="">
+                    <img class="h-28 w-28" src="./assets/windows-logo.png" alt="windows-logo">
                 </div>
+                
+                  <div class="mt-2 relative">
+                    <button class="px-[10px] py-4 w-[240px] text-white bg-[#0066b8] font-[600] hover:bg-sky-800">Download
+                        <img class="absolute top-6 left-12" src="./assets/download.png" alt="">
+                        <small class="block border-box font-[1.25rem] text-[rgba(255,255,255,.9)] font-[1.25rem] ">Windows 8, 10, 11 </small>
+                    </button>
+                   </div>
 
-                <div class="flex justify-center gap-6">
+                <div class="flex gap-2 mt-4">
                     <p>User Installer</p>
-                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] text-center " href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
                 </div>
-                <div class="flex justify-center gap-2">
-                    <p>User Installer</p>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
-                    <a href="#">x64</a>
+                <div class="flex gap-2 mr-8">
+                    <p>System Installer</p>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2">
+                    <p class="">.Zip</p>
+                    <a class="ml-14 bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2">
+                    <p>CLI</p>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
                 </div>
              </div>
             </section>
-
-
             
    </div>
 </body>
