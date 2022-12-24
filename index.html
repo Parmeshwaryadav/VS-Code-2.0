@@ -255,8 +255,9 @@
             </section>
 
             <!-- Installer Section  -->
-            <section class="h-[80vh]">
+            <section class="h-[65vh] flex flex-wrap justify-center gap-20">
 
+                <!-- Windows Section -->
              <div class="flex flex-col items-center gap-1 mt-14">
                 <div class="">
                     <img class="h-28 w-28" src="./assets/windows-logo.png" alt="windows-logo">
@@ -275,7 +276,7 @@
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
                 </div>
-                <div class="flex gap-2 mr-8">
+                <div class="flex gap-2 mr-[16px]">
                     <p>System Installer</p>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
@@ -283,17 +284,128 @@
                 </div>
                 <div class="flex gap-2">
                     <p class="">.Zip</p>
-                    <a class="ml-14 bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="ml-[4.1rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
                 </div>
-                <div class="flex gap-2">
+                <div class="flex gap-2 mt-3">
                     <p>CLI</p>
+                    <a class=" ml-[4.3rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>         
+             </div>
+
+             <!-- Linux part -->
+             <div class="flex flex-col items-center gap-1 mt-14">
+                <div class="">
+                    <img class="h-28 w-28" src="./assets/linux-logo.png" alt="windows-logo">
+                </div>
+                
+                  <div class="mt-2 relative">
+                    <button class="px-[10px] py-4 w-[240px] text-white bg-[#0066b8] font-[600] hover:bg-sky-800">Download
+                        <img class="absolute top-6 left-12" src="./assets/download.png" alt="">
+                        <small class="block border-box font-[1.25rem] text-[rgba(255,255,255,.9)] font-[1.25rem] ">Windows 8, 10, 11 </small>
+                    </button>
+                   </div>
+
+                <div class="flex gap-2 mt-4">
+                    <p>User Installer</p>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
                     <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
                 </div>
+                <div class="flex gap-2 mr-[16px]">
+                    <p>System Installer</p>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2">
+                    <p class="">.Zip</p>
+                    <a class="ml-[4.1rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2 mt-3">
+                    <p>CLI</p>
+                    <a class=" ml-[4.3rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>         
              </div>
+
+             <!-- Mac part -->
+             <div class="flex flex-col items-center gap-1 mt-14">
+                <div class="">
+                    <img class="h-28 w-28" src="./assets/apple-logo.svg" alt="windows-logo">
+                </div>
+                
+                  <div class="mt-2 relative">
+                    <button class="px-[10px] py-4 w-[240px] text-white bg-[#0066b8] font-[600] hover:bg-sky-800">Download
+                        <img class="absolute top-6 left-12" src="./assets/download.png" alt="">
+                        <small class="block border-box font-[1.25rem] text-[rgba(255,255,255,.9)] font-[1.25rem] ">Windows 8, 10, 11 </small>
+                    </button>
+                   </div>
+
+                <div class="flex gap-2 mt-4">
+                    <p>User Installer</p>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2 mr-[16px]">
+                    <p>System Installer</p>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2">
+                    <p class="">.Zip</p>
+                    <a class="ml-[4.1rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>
+                <div class="flex gap-2 mt-3">
+                    <p>CLI</p>
+                    <a class=" ml-[4.3rem] bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x64</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">x86</a>
+                    <a class="bg-[#0066b8] text-[#ffffff] font-normal text-xs p-1 rounded-[0.2rem] hover:bg-sky-800" href="#">Arm64</a>
+                </div>         
+             </div>
+            </section>
+
+
+            <!-- LICENSE AND PRIVACY TERMS section -->
+            <section>
+
+                <div class="">
+
+                    <div class="flex justify-center gap-[20rem]">
+                    <div>
+                        <p>
+                        Want new features sooner? <br>
+                        Get the Insiders build instead.
+                        </p>
+                    </div>
+                    <div class="items-center">
+                        <p>
+                        Use vscode.dev for quick edits <br> online! <br>
+                        GitHub, Azure Repos, and local files.
+                        </p>
+                    </div>
+                    </div>
+
+                    <div>
+                        <p>
+                        LICENSE AND PRIVACY TERMS
+                        </p>
+
+                        <p>
+                            By downloading and using Visual Studio Code, you agree to the license terms and privacy statement. VS Code automatically sends telemetry data and crash dumps to help us improve the product. If you would prefer not to have this data sent please go see How to Disable Crash Reporting to learn how to disable it.
+                        </p>
+                    </div>
+                </div>
             </section>
             
    </div>
