@@ -1,4 +1,4 @@
-<h4 align="center">VS Code Clone Using Pure HTML & Tailwind CSS <a href="https://vscodeclone01.netlify.app/">
+<h3 align="center">VS Code Clone Using Pure HTML & Tailwind CSS <a href="https://vscodeclone01.netlify.app/">
     
 VS CODE CLONE</a></h4>
 
@@ -7,8 +7,7 @@ VS CODE CLONE</a></h4>
     <img src="https://img.shields.io/badge/tailwind-VS--Code-lightgrey">
 </P>
 
-
-![screenshot](./assets/VS-Code-Clone.gif)
+![Screenshot](./assets/VS-Code-Clone.gif)
 
 ## How To Use
 
@@ -25,8 +24,9 @@ $ cd VS CODE WEBPAGE 2.0
 
 ## Credits
 
+this project was assigned by inueron Team.
 This webpage is purely build for educational Purpose.
 
-## You may also like...
+<!-- ## You may also like...
 
-- []() - 
+- []() -  -->
