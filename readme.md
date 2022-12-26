@@ -1,8 +1,11 @@
-<h3 align="center">VS Code Clone Using Pure HTML & Tailwind CSS <a href="https://vscodeclone01.netlify.app/">
-    
-VS CODE CLONE</a></h4>
+<h3 align="">VS Code Clone Using Pure HTML & Tailwind CSS </h4>
 
-<p align="center">
+<H2 align="center">
+<a href="https://vscodeclone01.netlify.app/">
+👉 VS CODE CLONE</a>
+</h2>
+
+<p align="">
     <img src="https://img.shields.io/badge/html-VS--Code-green">
     <img src="https://img.shields.io/badge/tailwind-VS--Code-lightgrey">
 </P>
@@ -27,6 +30,6 @@ $ cd VS CODE WEBPAGE 2.0
 this project was assigned by inueron Team.
 This webpage is purely build for educational Purpose.
 
-<!-- ## You may also like...
+## Currently working on...
 
-- []() -  -->
+Currently working on responsive design of this webpage.
